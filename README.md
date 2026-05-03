@@ -35,6 +35,12 @@ antes de qualquer autenticação, violando essa propriedade de privacidade.
 3. Aproxime o autenticador NFC
 4. O fingerprint é exibido na tela e salvo em `/ext/apps_data/fido2_scanner/`
 
+## Download
+
+O `.fap` compilado está disponível em `releases/fido2_scanner_v0.1.fap`.
+
+Compatível com Momentum firmware. Copie para `/ext/apps/NFC/` no SD card.
+
 ## Build
 
 ```bash
