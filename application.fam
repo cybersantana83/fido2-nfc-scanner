@@ -1,0 +1,12 @@
+App(
+    appid="fido2_scanner",
+    name="FIDO2 NFC Scanner",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="fido2_scanner_app",
+    stack_size=4 * 1024,
+    fap_category="NFC",
+    targets=["f7"],
+    fap_version="0.1",
+    fap_description="FIDO2 authenticator metadata scanner via NFC",
+    fap_author="Santana",
+)
